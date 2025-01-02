@@ -12,7 +12,6 @@ const Earth = () => {
       scale={2.5}
       position-y={0}
       rotation-y={0}
-
       />
 
   )
