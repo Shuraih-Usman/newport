@@ -1,7 +1,7 @@
 import {motion} from 'framer-motion'
 
 import { styles } from '../style'
-import { ComputersCanvas } from './canvas'
+import { ComputersCanvas, EarthCanvas } from './canvas'
 
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <EarthCanvas />
 
       <div className="absolute bottom-[8rem] sm:bottom-10 w-full flex justify-center items-center">
       <a href="#about">

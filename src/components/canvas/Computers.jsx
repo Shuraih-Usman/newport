@@ -8,13 +8,13 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("/desktop_pc/scene.gltf");
   return (
     <mesh>
-      {/* <ambientLight intensity={0.8} /> */}
-      {/* <pointLight intensity={1} /> */}
+      <ambientLight intensity={0.8} />
+      <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        // scale={isMobile ? 0.35 : 0.6}
-        // position={isMobile ? [0, -2.2, -0.6] : [0, -3.25, -1.25]}
-        // rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 0.35 : 0.6}
+        position={isMobile ? [0, -2.2, -0.6] : [0, -3.25, -1.25]}
+        rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
   );
