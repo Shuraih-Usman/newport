@@ -12,7 +12,7 @@ import {
   StarsCanvas,
 } from "./components";
 
-import { ComputersCanvas } from './canvas'
+import { ComputersCanvas } from './components/canvas'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,9 +23,10 @@ function App() {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
-          <ComputersCanvas />
+          
         </div>
         <About />
+        <ComputersCanvas />
         <Experience />
         <Tech />
         <Works />
